@@ -1,0 +1,9 @@
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\DuongThuanQuang\DuongThuanQuang\bin\Debug\DuongThuanQuang.exe.config
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\DuongThuanQuang\DuongThuanQuang\bin\Debug\DuongThuanQuang.exe
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\DuongThuanQuang\DuongThuanQuang\bin\Debug\DuongThuanQuang.pdb
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\DuongThuanQuang\DuongThuanQuang\obj\Debug\DuongThuanQuang.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\DuongThuanQuang\DuongThuanQuang\obj\Debug\DuongThuanQuang.Form1.resources
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\DuongThuanQuang\DuongThuanQuang\obj\Debug\DuongThuanQuang.Properties.Resources.resources
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\DuongThuanQuang\DuongThuanQuang\obj\Debug\DuongThuanQuang.csproj.GenerateResource.Cache
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\DuongThuanQuang\DuongThuanQuang\obj\Debug\DuongThuanQuang.exe
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\DuongThuanQuang\DuongThuanQuang\obj\Debug\DuongThuanQuang.pdb

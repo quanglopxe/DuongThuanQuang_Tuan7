@@ -1,0 +1,9 @@
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\Email\Email\bin\Debug\Email.exe.config
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\Email\Email\bin\Debug\Email.exe
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\Email\Email\bin\Debug\Email.pdb
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\Email\Email\obj\Debug\Email.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\Email\Email\obj\Debug\Email.Form1.resources
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\Email\Email\obj\Debug\Email.Properties.Resources.resources
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\Email\Email\obj\Debug\Email.csproj.GenerateResource.Cache
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\Email\Email\obj\Debug\Email.exe
+E:\LuuDuLieuSinhVien\DuongThuanQuang_Tuan6\Email\Email\obj\Debug\Email.pdb

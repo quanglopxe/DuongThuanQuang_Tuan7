@@ -37,47 +37,68 @@ namespace DuongThuanQuang_BTTL_Bai1
 
         private void txt_a_TextChanged(object sender, EventArgs e)
         {
-            Control ctrl = (Control)sender;
-            if (ctrl.Text.Length > 0 && string.IsNullOrEmpty(ctrl.Text) == true)
+            if (rbtn_PT1.Checked)
             {
-                this.errorProvider1.SetError(ctrl, "Giá trị không được để trống!");
-                ctrl.Focus();
+                if (!string.IsNullOrEmpty(txt_a.Text) && !string.IsNullOrEmpty(txt_b.Text))
+                    btn_Solve.Enabled = true;
+                else
+                    btn_Solve.Enabled = false;
             }
             else
-                this.errorProvider1.Clear();
+            {
+                if (!string.IsNullOrEmpty(txt_a.Text) && !string.IsNullOrEmpty(txt_b.Text) && !string.IsNullOrEmpty(txt_c.Text))
+                    btn_Solve.Enabled = true;
+                else
+                    btn_Solve.Enabled = false;
+            }
         }
 
         private void txt_b_TextChanged(object sender, EventArgs e)
         {
-            Control ctrl = (Control)sender;
-            if (ctrl.Text.Length > 0 && string.IsNullOrEmpty(ctrl.Text) == true)
+            if (rbtn_PT1.Checked)
             {
-                this.errorProvider1.SetError(ctrl, "Giá trị không được để trống!");
-                ctrl.Focus();
+                if (!string.IsNullOrEmpty(txt_a.Text) && !string.IsNullOrEmpty(txt_b.Text))
+                    btn_Solve.Enabled = true;
+                else
+                    btn_Solve.Enabled = false;
             }
             else
-                this.errorProvider1.Clear();
+            {
+                if (!string.IsNullOrEmpty(txt_a.Text) && !string.IsNullOrEmpty(txt_b.Text) && !string.IsNullOrEmpty(txt_c.Text))
+                    btn_Solve.Enabled = true;
+                else
+                    btn_Solve.Enabled = false;
+            }
         }
 
         private void txt_c_TextChanged(object sender, EventArgs e)
         {
-            Control ctrl = (Control)sender;
-            if (ctrl.Text.Length > 0 && string.IsNullOrEmpty(ctrl.Text) == true)
+            if (rbtn_PT1.Checked)
             {
-                this.errorProvider1.SetError(ctrl, "Giá trị không được để trống!");
-                ctrl.Focus();
+                if (!string.IsNullOrEmpty(txt_a.Text) && !string.IsNullOrEmpty(txt_b.Text))
+                    btn_Solve.Enabled = true;
+                else
+                    btn_Solve.Enabled = false;
             }
             else
-                this.errorProvider1.Clear();
+            {
+                if (!string.IsNullOrEmpty(txt_a.Text) && !string.IsNullOrEmpty(txt_b.Text) && !string.IsNullOrEmpty(txt_c.Text))
+                    btn_Solve.Enabled = true;
+                else
+                    btn_Solve.Enabled = false;
+            }
         }
 
         private void btn_Solve_Click(object sender, EventArgs e)
         {
+            int a = int.Parse(txt_a.Text);
+            int b = int.Parse(txt_b.Text);
+
             if(rbtn_PT1.Checked==true)
             {
-                if(int.Parse(txt_a.Text) == 0)
+                if(a == 0)
                 {
-                    if (int.Parse(txt_b.Text) == 0)
+                    if (b == 0)
                     {
                         txt_Result.Text = "Phương trình vô số nghiệm";
                     }
@@ -86,46 +107,57 @@ namespace DuongThuanQuang_BTTL_Bai1
                 }
                 else
                 {
-                    float kq = -float.Parse(txt_b.Text) / float.Parse(txt_a.Text);
+                    double kq = 1.0*-b/a;
                     txt_Result.Text = "Phương trình có nghiệm là: " + kq.ToString();
                 }
                     
             }
             if(rbtn_PT2.Checked==true)
             {
-                if (int.Parse(txt_a.Text) == 0)
+                int c = int.Parse(txt_c.Text);
+                if (a == 0)
                 {
-                    if (int.Parse(txt_b.Text) == 0)
+                    if (b == 0)
                     {
                         txt_Result.Text = "Phuong trinh vo nghiem!";
                     }
                     else
                     {
-                        float kq2 = -float.Parse(txt_c.Text) / float.Parse(txt_b.Text);
+                        double kq2 = 1.0 * c / b;
                         txt_Result.Text ="Phuong trinh co mot nghiem: x = " + kq2.ToString();
                     }
                     return;
                 }
-                // tinh delta
-                float delta = int.Parse(txt_b.Text) * int.Parse(txt_b.Text) - 4 * int.Parse(txt_a.Text) * int.Parse(txt_c.Text);
-                float x1;
-                float x2;
-                // tinh nghiem
+               
+                double delta = 1.0*b * b - 4 * a * c;
+                double x1;
+                double x2;
+                
                 if (delta > 0)
                 {
-                    x1 = (float)((-b + Math.Sqrt(delta)) / (2 * a));
-                    x2 = (float)((-b - Math.Sqrt(delta)) / (2 * a));
-                    Console.Write("Phuong trinh co 2 nghiem la: x1 = {0} va x2 = {1}", x1, x2);
+                    x1 = (double)((-b + Math.Sqrt(delta)) / (2 * a));
+                    x2 = (double)((-b - Math.Sqrt(delta)) / (2 * a));
+                    txt_Result.Text = "Phuong trinh co 2 nghiem la: x1 = " + x1.ToString() + "va x2 = " + x2.ToString();
                 }
                 else if (delta == 0)
                 {
                     x1 = (-b / (2 * a));
-                    Console.Write("Phong trinh co nghiem kep: x1 = x2 = {0}", x1);
+                    txt_Result.Text ="Phong trinh co nghiem kep: x1 = x2 = " + x1.ToString();
                 }
                 else
                 {
-                    Console.Write("Phuong trinh vo nghiem!");
+                    txt_Result.Text = "Phuong trinh vo nghiem!";
                 }
+            }
+        }
+
+        private void btn_Exit_Click(object sender, EventArgs e)
+        {
+            DialogResult r;
+            r = MessageBox.Show("Bạn có chắc muốn thoát?", "Thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if(r==DialogResult.Yes)
+            {
+                Application.Exit();
             }
         }
 

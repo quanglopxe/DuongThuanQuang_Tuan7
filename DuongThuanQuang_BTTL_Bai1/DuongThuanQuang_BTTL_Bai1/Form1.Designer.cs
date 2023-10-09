@@ -31,8 +31,8 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rbtn_PT1 = new System.Windows.Forms.RadioButton();
             this.rbtn_PT2 = new System.Windows.Forms.RadioButton();
+            this.rbtn_PT1 = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.txt_a = new System.Windows.Forms.TextBox();
             this.btn_Solve = new System.Windows.Forms.Button();
@@ -55,7 +55,7 @@
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(271, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(170, 18);
+            this.label1.Size = new System.Drawing.Size(219, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "GIẢI PHƯƠNG TRÌNH";
             // 
@@ -65,56 +65,56 @@
             this.groupBox1.Controls.Add(this.rbtn_PT1);
             this.groupBox1.Location = new System.Drawing.Point(214, 91);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(277, 124);
+            this.groupBox1.Size = new System.Drawing.Size(309, 124);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Bạn vui lòng chọn";
-            // 
-            // rbtn_PT1
-            // 
-            this.rbtn_PT1.AutoSize = true;
-            this.rbtn_PT1.Location = new System.Drawing.Point(22, 36);
-            this.rbtn_PT1.Name = "rbtn_PT1";
-            this.rbtn_PT1.Size = new System.Drawing.Size(149, 22);
-            this.rbtn_PT1.TabIndex = 0;
-            this.rbtn_PT1.TabStop = true;
-            this.rbtn_PT1.Text = "Phương trình bậc 1";
-            this.rbtn_PT1.UseVisualStyleBackColor = true;
-            this.rbtn_PT1.CheckedChanged += new System.EventHandler(this.rbtn_PT1_CheckedChanged);
             // 
             // rbtn_PT2
             // 
             this.rbtn_PT2.AutoSize = true;
             this.rbtn_PT2.Location = new System.Drawing.Point(22, 76);
             this.rbtn_PT2.Name = "rbtn_PT2";
-            this.rbtn_PT2.Size = new System.Drawing.Size(149, 22);
+            this.rbtn_PT2.Size = new System.Drawing.Size(193, 27);
             this.rbtn_PT2.TabIndex = 0;
             this.rbtn_PT2.TabStop = true;
             this.rbtn_PT2.Text = "Phương trình bậc 2";
             this.rbtn_PT2.UseVisualStyleBackColor = true;
             this.rbtn_PT2.CheckedChanged += new System.EventHandler(this.rbtn_PT2_CheckedChanged);
             // 
+            // rbtn_PT1
+            // 
+            this.rbtn_PT1.AutoSize = true;
+            this.rbtn_PT1.Location = new System.Drawing.Point(22, 36);
+            this.rbtn_PT1.Name = "rbtn_PT1";
+            this.rbtn_PT1.Size = new System.Drawing.Size(193, 27);
+            this.rbtn_PT1.TabIndex = 0;
+            this.rbtn_PT1.TabStop = true;
+            this.rbtn_PT1.Text = "Phương trình bậc 1";
+            this.rbtn_PT1.UseVisualStyleBackColor = true;
+            this.rbtn_PT1.CheckedChanged += new System.EventHandler(this.rbtn_PT1_CheckedChanged);
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(211, 238);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 18);
+            this.label2.Size = new System.Drawing.Size(71, 23);
             this.label2.TabIndex = 2;
             this.label2.Text = "Nhập a";
             // 
             // txt_a
             // 
-            this.txt_a.Location = new System.Drawing.Point(274, 238);
+            this.txt_a.Location = new System.Drawing.Point(297, 238);
             this.txt_a.Name = "txt_a";
-            this.txt_a.Size = new System.Drawing.Size(100, 25);
+            this.txt_a.Size = new System.Drawing.Size(100, 30);
             this.txt_a.TabIndex = 3;
             this.txt_a.TextChanged += new System.EventHandler(this.txt_a_TextChanged);
             // 
             // btn_Solve
             // 
             this.btn_Solve.Enabled = false;
-            this.btn_Solve.Location = new System.Drawing.Point(408, 238);
+            this.btn_Solve.Location = new System.Drawing.Point(440, 238);
             this.btn_Solve.Name = "btn_Solve";
             this.btn_Solve.Size = new System.Drawing.Size(83, 51);
             this.btn_Solve.TabIndex = 4;
@@ -127,15 +127,15 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(211, 284);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 18);
+            this.label3.Size = new System.Drawing.Size(72, 23);
             this.label3.TabIndex = 2;
             this.label3.Text = "Nhập b";
             // 
             // txt_b
             // 
-            this.txt_b.Location = new System.Drawing.Point(274, 280);
+            this.txt_b.Location = new System.Drawing.Point(297, 280);
             this.txt_b.Name = "txt_b";
-            this.txt_b.Size = new System.Drawing.Size(100, 25);
+            this.txt_b.Size = new System.Drawing.Size(100, 30);
             this.txt_b.TabIndex = 3;
             this.txt_b.TextChanged += new System.EventHandler(this.txt_b_TextChanged);
             // 
@@ -144,40 +144,41 @@
             this.lb_c.AutoSize = true;
             this.lb_c.Location = new System.Drawing.Point(211, 324);
             this.lb_c.Name = "lb_c";
-            this.lb_c.Size = new System.Drawing.Size(54, 18);
+            this.lb_c.Size = new System.Drawing.Size(70, 23);
             this.lb_c.TabIndex = 2;
             this.lb_c.Text = "Nhập c";
             // 
             // txt_c
             // 
-            this.txt_c.Location = new System.Drawing.Point(274, 320);
+            this.txt_c.Location = new System.Drawing.Point(297, 320);
             this.txt_c.Name = "txt_c";
-            this.txt_c.Size = new System.Drawing.Size(100, 25);
+            this.txt_c.Size = new System.Drawing.Size(100, 30);
             this.txt_c.TabIndex = 3;
             this.txt_c.TextChanged += new System.EventHandler(this.txt_c_TextChanged);
             // 
             // btn_Exit
             // 
-            this.btn_Exit.Location = new System.Drawing.Point(408, 295);
+            this.btn_Exit.Location = new System.Drawing.Point(440, 295);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(83, 51);
             this.btn_Exit.TabIndex = 4;
             this.btn_Exit.Text = "Thoát";
             this.btn_Exit.UseVisualStyleBackColor = true;
+            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(211, 380);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(59, 18);
+            this.label5.Size = new System.Drawing.Size(75, 23);
             this.label5.TabIndex = 2;
             this.label5.Text = "Kết quả";
             // 
             // txt_Result
             // 
             this.txt_Result.Enabled = false;
-            this.txt_Result.Location = new System.Drawing.Point(274, 377);
+            this.txt_Result.Location = new System.Drawing.Point(306, 375);
             this.txt_Result.Multiline = true;
             this.txt_Result.Name = "txt_Result";
             this.txt_Result.Size = new System.Drawing.Size(217, 88);
@@ -189,9 +190,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(683, 510);
+            this.ClientSize = new System.Drawing.Size(782, 475);
             this.Controls.Add(this.txt_Result);
             this.Controls.Add(this.btn_Exit);
             this.Controls.Add(this.btn_Solve);
@@ -205,7 +206,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Giải phương trình bậc 1-2";
             this.groupBox1.ResumeLayout(false);

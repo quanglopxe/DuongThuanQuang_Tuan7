@@ -34,5 +34,46 @@ namespace DuongThuanQuang_BTTL_Bai2
             string resultText = string.Join(" ", Arr.A);
             txt_Result.Text = resultText;
         }
+
+        private void btn_Reset_Click(object sender, EventArgs e)
+        {
+            txt_Result.Clear();
+            txt_Array.Clear();
+            txt_Add_Index.Clear();
+            txt_Add_Value.Clear();
+            txt_Delete_Index.Clear();
+            txt_Delete_Value.Clear();
+            txt_Max.Clear();
+            txt_Min.Clear();
+            txt_Replace_Index.Clear();
+            txt_Replace_Value.Clear();
+            txt_Search_Index.Clear();
+            txt_Search_value.Clear();
+            txt_Sum_Array.Clear();
+            txt_Sum_Even.Clear();
+            txt_Sum_Odd.Clear();
+            txt_Value_Replace.Clear();
+            txt_Value_Search.Clear();
+        }
+
+        private void btn_Exit_Click(object sender, EventArgs e)
+        {
+            DialogResult r;
+            r = MessageBox.Show("Bạn có chắc muốn thoát?", "Thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (r == DialogResult.Yes)
+                Application.Exit();
+        }
+
+        private void btn_Do_Click(object sender, EventArgs e)
+        {
+            if (rbtn_Sort_Increase.Checked)
+                Arr.Ascending_Sort();
+            if (rbtn_Sort_Decrease.Checked)
+                Arr.Descending_Sort();
+            string resultText = string.Join(" ", Arr.A);
+            txt_Result.Text = resultText;
+        }
+
+
     }
 }

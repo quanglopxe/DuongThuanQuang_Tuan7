@@ -47,14 +47,14 @@
             this.txt_Search_Index = new System.Windows.Forms.TextBox();
             this.txt_Search_value = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lb_Error1 = new System.Windows.Forms.Label();
             this.rbtn_Delete_Index = new System.Windows.Forms.RadioButton();
             this.rbtn_Delete_Value = new System.Windows.Forms.RadioButton();
             this.txt_Delete_Index = new System.Windows.Forms.TextBox();
             this.txt_Delete_Value = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lb_Error2 = new System.Windows.Forms.Label();
             this.rbtn_Add_Value = new System.Windows.Forms.RadioButton();
             this.txt_Add_Index = new System.Windows.Forms.TextBox();
             this.txt_Add_Value = new System.Windows.Forms.TextBox();
@@ -268,7 +268,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this.lb_Error1);
             this.groupBox3.Controls.Add(this.rbtn_Delete_Index);
             this.groupBox3.Controls.Add(this.rbtn_Delete_Value);
             this.groupBox3.Controls.Add(this.txt_Delete_Index);
@@ -280,16 +280,17 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Xóa";
             // 
-            // label3
+            // lb_Error1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(46, 127);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(157, 23);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Cần sắp xếp tăng";
+            this.lb_Error1.AutoSize = true;
+            this.lb_Error1.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Error1.ForeColor = System.Drawing.Color.Red;
+            this.lb_Error1.Location = new System.Drawing.Point(46, 127);
+            this.lb_Error1.Name = "lb_Error1";
+            this.lb_Error1.Size = new System.Drawing.Size(157, 23);
+            this.lb_Error1.TabIndex = 4;
+            this.lb_Error1.Text = "Cần sắp xếp tăng";
+            this.lb_Error1.Visible = false;
             // 
             // rbtn_Delete_Index
             // 
@@ -330,7 +331,7 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.label6);
-            this.groupBox4.Controls.Add(this.label4);
+            this.groupBox4.Controls.Add(this.lb_Error2);
             this.groupBox4.Controls.Add(this.rbtn_Add_Value);
             this.groupBox4.Controls.Add(this.txt_Add_Index);
             this.groupBox4.Controls.Add(this.txt_Add_Value);
@@ -352,16 +353,17 @@
             this.label6.TabIndex = 4;
             this.label6.Text = "Tại vị trí cần thêm";
             // 
-            // label4
+            // lb_Error2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(46, 127);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(157, 23);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Cần sắp xếp tăng";
+            this.lb_Error2.AutoSize = true;
+            this.lb_Error2.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Error2.ForeColor = System.Drawing.Color.Red;
+            this.lb_Error2.Location = new System.Drawing.Point(46, 127);
+            this.lb_Error2.Name = "lb_Error2";
+            this.lb_Error2.Size = new System.Drawing.Size(157, 23);
+            this.lb_Error2.TabIndex = 4;
+            this.lb_Error2.Text = "Cần sắp xếp tăng";
+            this.lb_Error2.Visible = false;
             // 
             // rbtn_Add_Value
             // 
@@ -668,10 +670,10 @@
         private System.Windows.Forms.RadioButton rbtn_Delete_Value;
         private System.Windows.Forms.TextBox txt_Delete_Index;
         private System.Windows.Forms.TextBox txt_Delete_Value;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lb_Error1;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lb_Error2;
         private System.Windows.Forms.RadioButton rbtn_Add_Value;
         private System.Windows.Forms.TextBox txt_Add_Index;
         private System.Windows.Forms.TextBox txt_Add_Value;

@@ -1,0 +1,9 @@
+D:\DuongThuanQuang_Tuan6\CafeSinhVien\CafeSinhVien\bin\Debug\CafeSinhVien.exe.config
+D:\DuongThuanQuang_Tuan6\CafeSinhVien\CafeSinhVien\bin\Debug\CafeSinhVien.exe
+D:\DuongThuanQuang_Tuan6\CafeSinhVien\CafeSinhVien\bin\Debug\CafeSinhVien.pdb
+D:\DuongThuanQuang_Tuan6\CafeSinhVien\CafeSinhVien\obj\Debug\CafeSinhVien.csprojResolveAssemblyReference.cache
+D:\DuongThuanQuang_Tuan6\CafeSinhVien\CafeSinhVien\obj\Debug\CafeSinhVien.Form1.resources
+D:\DuongThuanQuang_Tuan6\CafeSinhVien\CafeSinhVien\obj\Debug\CafeSinhVien.Properties.Resources.resources
+D:\DuongThuanQuang_Tuan6\CafeSinhVien\CafeSinhVien\obj\Debug\CafeSinhVien.csproj.GenerateResource.Cache
+D:\DuongThuanQuang_Tuan6\CafeSinhVien\CafeSinhVien\obj\Debug\CafeSinhVien.exe
+D:\DuongThuanQuang_Tuan6\CafeSinhVien\CafeSinhVien\obj\Debug\CafeSinhVien.pdb

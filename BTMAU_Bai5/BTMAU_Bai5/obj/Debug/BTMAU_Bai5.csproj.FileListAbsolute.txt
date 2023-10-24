@@ -8,3 +8,5 @@ D:\DuongThuanQuang_Tuan6\BTMAU_Bai5\BTMAU_Bai5\obj\Debug\BTMAU_Bai5.csproj.Gener
 D:\DuongThuanQuang_Tuan6\BTMAU_Bai5\BTMAU_Bai5\obj\Debug\BTMAU_Bai5.exe
 D:\DuongThuanQuang_Tuan6\BTMAU_Bai5\BTMAU_Bai5\obj\Debug\BTMAU_Bai5.pdb
 D:\DuongThuanQuang_Tuan6\BTMAU_Bai5\BTMAU_Bai5\obj\Debug\BTMAU_Bai5.Form2.resources
+D:\DuongThuanQuang_Tuan6\BTMAU_Bai5\BTMAU_Bai5\obj\Debug\BTMAU_Bai5.Form3.resources
+D:\DuongThuanQuang_Tuan6\BTMAU_Bai5\BTMAU_Bai5\obj\Debug\BTMAU_Bai5.Menu.resources
